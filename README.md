@@ -1,5 +1,5 @@
 # dayOne: Twatter
-A ten day challenge that I've challenged myself to do. dayOne is a simple blog template when you can post images and text. 
+A ten day challenge that I've challenged myself to do. dayTwo is a simple twitter monospace concept website with a dash of 8-bit.
 
 # Sources used
 Devtips Starter Kit:
