@@ -1,0 +1,128 @@
+#main-container
+	width: 860px
+	margin: 0 auto
+	margin-top: 100px
+
+header
+	+clearfix
+
+#header-left
+	float: left
+	+clearfix
+
+	#logo
+		float: left
+		
+		a
+			display: inline-block
+			font-weight: 700
+
+		#logo-lettter
+			display: inline-block
+			padding: 5px 15px
+			background: $accent-color
+			color: white
+
+			&:hover
+				background: $primary-color
+
+	ul
+		margin: 0
+		padding: 0
+		float: left
+		margin-left: 45px
+
+		li
+			list-style-type: none
+			display: inline-block
+			margin: 5px 0
+
+			a
+				color: lighten($accent-color, 30%)
+
+
+#header-right
+	float: right
+	+clearfix
+
+	#profile-pic
+		display: inline-block
+
+		img
+			+size(28px)
+			display: inline-block
+			margin: 0 20px
+			border-radius: 100%
+			cursor: pointer
+			float: right
+
+	a
+		display: inline-block
+		margin: 5px 0
+		float: left
+		color: lighten($accent-color, 30%)
+
+
+#content
+	width: 80%
+	margin: 75px auto
+
+	button
+		background: $accent-color
+		border: none
+		outline: none
+		color: white
+		margin-top: 50px
+		padding: 5px 8px
+
+		&:hover
+			background: $primary-color
+
+.post
+
+	h4
+		margin: 0 0 5px 0
+
+	.user
+		margin: 0 0 15px 0
+
+		a
+			color: lighten($accent-color, 20%)
+
+		span
+			color: lighten($accent-color, 40%)
+		
+	img
+		width: 100%
+
+	.info
+		margin: 0
+		padding: 0
+
+		a
+			font-size: 14px
+			margin-right: 10px
+			color: lighten($accent-color, 30%)
+
+
+hr
+	border: none
+	height: 1px
+	background: lighten($accent-color, 90%)
+	width: 500px
+	margin: 50px auto
+
+
+footer
+	text-align: center
+	margin-bottom: 100px
+
+	.copyright
+		color: lighten($accent-color, 50%)
+
+
+
+
+
+
+

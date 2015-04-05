@@ -149,7 +149,7 @@ td, th {
   src: local("Open Sans"), local("OpenSans"), url(//themes.googleusercontent.com/static/fonts/opensans/v8/cJZKeOuBrn4kERxqtaUH3bO3LdcAZYWl9Si6vvxL-qU.woff) format("woff"); }
 .gigantic, .huge, .large, .bigger, .big,
 h1, h2, h3, h4, h5, h6 {
-  color: #BD5248;
+  color: #000;
   font-weight: bold; }
 
 .gigantic {
@@ -195,12 +195,12 @@ hr {
   height: 0; }
 
 a {
-  color: #BD5248;
+  color: #000;
   text-decoration: none;
   outline: 0; }
 
 a:hover, a:focus {
-  color: #d89993; }
+  color: #333333; }
 
 ::selection {
   background: #FFF498; }
@@ -217,13 +217,122 @@ img::-moz-selection {
 body {
   -webkit-tap-highlight-color: #FFF498; }
 
+* {
+  font-family: "Anonymous Pro"; }
+
 body {
-  background: #F6F6F8;
+  background: #fff;
   font-size: 14px;
   line-height: 1.6;
   font-family: "Open Sans" sans-serif;
   color: #2E2D33;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%; }
+
+#main-container {
+  width: 860px;
+  margin: 0 auto;
+  margin-top: 100px; }
+
+header::after {
+  clear: both;
+  content: "";
+  display: table; }
+
+#header-left {
+  float: left; }
+  #header-left::after {
+    clear: both;
+    content: "";
+    display: table; }
+  #header-left #logo {
+    float: left; }
+    #header-left #logo a {
+      display: inline-block;
+      font-weight: 700; }
+    #header-left #logo #logo-lettter {
+      display: inline-block;
+      padding: 5px 15px;
+      background: #000;
+      color: white; }
+      #header-left #logo #logo-lettter:hover {
+        background: #3F7CAC; }
+  #header-left ul {
+    margin: 0;
+    padding: 0;
+    float: left;
+    margin-left: 45px; }
+    #header-left ul li {
+      list-style-type: none;
+      display: inline-block;
+      margin: 5px 0; }
+      #header-left ul li a {
+        color: #4d4d4d; }
+
+#header-right {
+  float: right; }
+  #header-right::after {
+    clear: both;
+    content: "";
+    display: table; }
+  #header-right #profile-pic {
+    display: inline-block; }
+    #header-right #profile-pic img {
+      height: 28px;
+      width: 28px;
+      display: inline-block;
+      margin: 0 20px;
+      border-radius: 100%;
+      cursor: pointer;
+      float: right; }
+  #header-right a {
+    display: inline-block;
+    margin: 5px 0;
+    float: left;
+    color: #4d4d4d; }
+
+#content {
+  width: 80%;
+  margin: 75px auto; }
+  #content button {
+    background: #000;
+    border: none;
+    outline: none;
+    color: white;
+    margin-top: 50px;
+    padding: 5px 8px; }
+    #content button:hover {
+      background: #3F7CAC; }
+
+.post h4 {
+  margin: 0 0 5px 0; }
+.post .user {
+  margin: 0 0 15px 0; }
+  .post .user a {
+    color: #333333; }
+  .post .user span {
+    color: #666666; }
+.post img {
+  width: 100%; }
+.post .info {
+  margin: 0;
+  padding: 0; }
+  .post .info a {
+    font-size: 14px;
+    margin-right: 10px;
+    color: #4d4d4d; }
+
+hr {
+  border: none;
+  height: 1px;
+  background: #e6e6e6;
+  width: 500px;
+  margin: 50px auto; }
+
+footer {
+  text-align: center;
+  margin-bottom: 100px; }
+  footer .copyright {
+    color: gray; }
 
 /*# sourceMappingURL=main.css.map */
