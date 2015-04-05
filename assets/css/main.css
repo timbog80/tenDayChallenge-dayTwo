@@ -220,6 +220,13 @@ body {
 * {
   font-family: "Anonymous Pro"; }
 
+hr {
+  border: none;
+  height: 1px;
+  background: #e6e6e6;
+  width: 500px;
+  margin: 50px auto; }
+
 body {
   background: #fff;
   font-size: 14px;
@@ -257,7 +264,7 @@ header::after {
       color: white;
       border-radius: 2px; }
       #header-left #logo #logo-lettter:hover {
-        background: #3F7CAC; }
+        background: #E3B23C; }
   #header-left ul {
     margin: 0;
     padding: 0;
@@ -305,36 +312,28 @@ header::after {
     padding: 5px 12px;
     font-size: 14px; }
     #content button:hover {
-      background: #3F7CAC; }
+      background: #E3B23C; }
 
 .post h4 {
   margin: 0 0 5px 0; }
 .post .user {
   margin: 0; }
+  .post .user a {
+    color: #333333; }
 .post .hashtags {
   display: inline-block;
   margin-bottom: 10px;
-  font-size: 13px; }
-.post a {
-  color: #333333; }
-.post span {
+  font-size: 13px;
   color: #666666; }
 .post img {
   width: 100%; }
 .post .info {
   margin: 0;
   padding: 0; }
-  .post .info a {
+  .post .info a, .post .info span {
     font-size: 14px;
     margin-right: 10px;
-    color: #4d4d4d; }
-
-hr {
-  border: none;
-  height: 1px;
-  background: #e6e6e6;
-  width: 500px;
-  margin: 50px auto; }
+    color: gray; }
 
 footer {
   text-align: center;
