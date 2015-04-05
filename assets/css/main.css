@@ -252,9 +252,10 @@ header::after {
       font-weight: 700; }
     #header-left #logo #logo-lettter {
       display: inline-block;
-      padding: 5px 15px;
+      padding: 5px 10px;
       background: #000;
-      color: white; }
+      color: white;
+      border-radius: 2px; }
       #header-left #logo #logo-lettter:hover {
         background: #3F7CAC; }
   #header-left ul {
@@ -278,11 +279,11 @@ header::after {
   #header-right #profile-pic {
     display: inline-block; }
     #header-right #profile-pic img {
-      height: 28px;
-      width: 28px;
+      height: 32px;
+      width: 32px;
       display: inline-block;
       margin: 0 20px;
-      border-radius: 100%;
+      border-radius: 2px;
       cursor: pointer;
       float: right; }
   #header-right a {
@@ -300,6 +301,7 @@ header::after {
     outline: none;
     color: white;
     margin-top: 50px;
+    border-radius: 2px;
     padding: 5px 8px; }
     #content button:hover {
       background: #3F7CAC; }
@@ -307,11 +309,15 @@ header::after {
 .post h4 {
   margin: 0 0 5px 0; }
 .post .user {
-  margin: 0 0 15px 0; }
-  .post .user a {
-    color: #333333; }
-  .post .user span {
-    color: #666666; }
+  margin: 0; }
+.post .hashtags {
+  display: inline-block;
+  margin-bottom: 10px;
+  font-size: 13px; }
+.post a {
+  color: #333333; }
+.post span {
+  color: #666666; }
 .post img {
   width: 100%; }
 .post .info {

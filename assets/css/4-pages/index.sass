@@ -19,9 +19,10 @@ header
 
 		#logo-lettter
 			display: inline-block
-			padding: 5px 15px
+			padding: 5px 10px
 			background: $accent-color
 			color: white
+			border-radius: 2px
 
 			&:hover
 				background: $primary-color
@@ -49,10 +50,10 @@ header
 		display: inline-block
 
 		img
-			+size(28px)
+			+size(32px)
 			display: inline-block
 			margin: 0 20px
-			border-radius: 100%
+			border-radius: 2px
 			cursor: pointer
 			float: right
 
@@ -73,6 +74,7 @@ header
 		outline: none
 		color: white
 		margin-top: 50px
+		border-radius: 2px
 		padding: 5px 8px
 
 		&:hover
@@ -84,13 +86,18 @@ header
 		margin: 0 0 5px 0
 
 	.user
-		margin: 0 0 15px 0
+		margin: 0
 
-		a
-			color: lighten($accent-color, 20%)
+	.hashtags
+		display: inline-block
+		margin-bottom: 10px
+		font-size: 13px
 
-		span
-			color: lighten($accent-color, 40%)
+	a
+		color: lighten($accent-color, 20%)
+
+	span
+		color: lighten($accent-color, 40%)
 		
 	img
 		width: 100%
