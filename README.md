@@ -8,5 +8,5 @@ Devtips Starter Kit:
 Bourbon.io:
 [Visit officail site](http://bourbon.io/)
 
-![screenshots](assets/img/top.png)
-![screenshots](assets/img/bottom.png)
+![screenshots](assets/img/tops.png)
+![screenshots](assets/img/bots.png)
